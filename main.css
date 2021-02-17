@@ -8,8 +8,8 @@
   /* background-repeat: no-repeat;
   background-origin: border-box;
   background-clip: border-box; */
-  height: 528px;
-  margin-top: 43px;
+  height: 33rem;
+  margin-top: 2.7rem;
   width: 100%;
   position: relative;
 }
@@ -22,7 +22,7 @@
 #product-overview h1 {
   color: white;
   font-family: 'Anton', sans-serif;
-  margin: 0px;
+  margin: 0;
   position: absolute;
   bottom: 5%;
   left: 3%;
@@ -37,8 +37,8 @@
 .plan {
   background: #d5ffdc;
   text-align: center;
-  padding: 16px;
-  margin: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
   display: inline-block;
   width: 30%;
   vertical-align: middle;
@@ -53,7 +53,7 @@
 .plan__annotation {
   background: white;
   color: #19b84c;
-  padding: 8px;
+  padding: 0.5rem;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
@@ -81,18 +81,18 @@
 }
 
 .plan__feature {
-  margin: 8px 0;
+  margin: 0.5rem 0;
 }
 
 #key-features {
   background: #ff1b68;
-  margin-top: 80px;
-  padding: 16px;
+  margin-top: 5rem;
+  padding: 1rem;
 }
 
 #key-features .section-title {
   color: white;
-  margin: 32px;
+  margin: 2rem;
 }
 
 .key-feature__list {
@@ -110,17 +110,17 @@
 
 .key-feature__image {
   background: #ffcede;
-  width: 128px;
-  height: 128px;
+  width: 8rem;
+  height: 8rem;
   border: 2px solid #424242;
   border-radius: 50%;
   margin: auto;
-  padding: 20px;
+  padding: 1.2rem;
 }
 
 .key-feature__description {
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.2rem;
   color: white;
 }
