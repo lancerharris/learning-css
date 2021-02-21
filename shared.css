@@ -163,7 +163,9 @@ main {
 }
 
 .mobile-nav {
-  display: none;
+  transform: translateX(-100%);
+  transition: transform 300ms ease-out;
+  /* display: none; */
   position: fixed;
   z-index: 101;
   top: 0;
